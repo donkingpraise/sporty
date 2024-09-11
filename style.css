@@ -1,0 +1,607 @@
+ /* *{
+    box-sizing: border-box;
+}
+.drpdn
+{
+    text-align: center;
+}
+
+.cars{
+    list-style: none;
+    display: none;
+}
+
+.drpdn:hover .cars{
+    display: block;
+} */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --bg-color: rgb(212, 25, 25);
+    --primary-color: white;
+}
+ *{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+ }
+ body{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+
+    
+ }
+
+
+.header{
+    width: 100%;
+    height: 60px;
+    background-color: var(--bg-color);
+    display: flex;
+   
+}
+.header-boxA{
+   padding-top: 1.2rem;
+   padding-left: 12rem;
+
+}
+
+.header-boxB{
+    width: 40%;
+   padding-top: 1.2rem;
+}
+
+.header-boxC{
+    padding-top: 1.2rem;
+    width: 30%;
+    height: 100px;
+    display: flex;
+}
+.regA{
+    padding-top: 0.5rem;
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 35px;
+    color: white;
+    padding-left: 1rem
+}
+
+.regB{
+    padding-top: 0.1rem;
+    height: 35px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding-left: 1rem;
+}
+
+.header-boxD{
+    padding-top: 1.2rem;
+    width: 30%;
+    display: flex;
+    margin-left: 0.3rem;
+}
+
+.reg2A{
+    padding-top: 0.1rem;
+    height: 35px;
+    width: 100%;
+    background-color: rgba(15, 15, 15, 0.4);
+    padding-left: 1rem;
+}
+
+.reg2B{
+    padding-top: 0.5rem;
+    background-color: rgba(22, 21, 21, 0.562);
+    width: 50%;
+    height: 35px;
+    padding-left: 1rem 
+}
+.my-button{
+    border: 0px;
+    background-color: transparent;
+    color: white;
+}
+
+.my-inputA{
+    width: 70%;
+    height: 30px;
+    outline: none;
+    background-color: transparent;
+    border: 0px;
+    
+}
+
+.my-inputB{
+    width: 90%;
+    height: 30px;
+    outline: none;
+    background-color: transparent;
+    border: 0px;
+}
+
+.header-boxE{
+    width: 30%;
+    padding-right: 10rem;
+    margin-top: 1.2rem;
+    margin-left: 0.5rem;
+}
+.reg3{
+    width: 46%;
+    height: 35px;
+    padding-left: 0.35rem;
+    padding-top: 0.5rem;
+    border: 1px solid white;
+}
+.my-buttonB{
+    border: 0px;
+    background-color: transparent;
+    color: white;
+}
+.header2{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(212, 25, 25);
+   display: flex; 
+   gap: 1px;
+}
+.header-in{
+    width: 83%;
+    display: flex;
+    padding-left: 15rem;
+
+
+}
+
+.header-box2{
+    width: 47%;
+    color: white;
+    padding-top: 1.2rem;
+}
+.header-box2J{
+    width: 47%;
+    height: 60px;
+    margin-top: 0.3rem;
+    text-align: center;
+    background-color: white;
+    padding-top: 1rem;
+    
+}
+.middle{
+    width: 85%;
+    height: 400px;
+    display: flex;
+    padding-top: 4rem;
+    padding-left: 10rem;
+    gap: 20px;
+}
+.mid-boxA{
+   width: 50%; 
+   /* background-color: red; */
+   display: flex;
+}
+.mid-contA{
+    width: 25%;
+}
+
+.mid-contB{
+    width: 25%;
+    padding-left: 10rem;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.mid-boxB{
+    width:50%; 
+    /* background-color: blueviolet; */
+    display: flex;
+    flex-direction: column;
+    padding-top: 2rem;
+}
+.mid-box2A{
+    width: 25;
+}
+.my-h1{
+    font-size: 4.5rem;
+    line-height: 55px;
+    color: rgb(32, 196, 32);
+}
+.mid-cont2B{
+    width: 100%;
+    height: 100px;
+    /* background-color: blue  ; */
+    display: flex;  
+    margin-top: 2rem;
+    gap: 10px;
+}
+.mid-in{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(32, 196, 32);
+    padding-top: 1.2rem;
+    border-radius: 50px 50px;
+    padding-left: 1rem;
+}
+.mid-button{
+    font-size: 1rem;
+    border: 0px;
+    background-color: transparent;
+    color: white;
+}
+.bottom-side{
+    width: 100%;
+    height: 610px;
+    background-color: rgb(32, 196, 32);
+    margin-top: 6rem;
+    display: flex;
+    gap: 20px ;
+}
+.B-side1{
+    width: 50%;
+    /* background-color: red; */
+    padding-top: 6rem;
+    padding-left: 9rem;
+}
+.B-box1{
+    width: 100%;
+    color: white;
+    padding-left: 2.1rem;
+}
+
+.B-box2{
+    width: 100%;
+    padding-top: 6rem;
+    padding-left: 8rem;
+    color: white;
+}
+
+.B-box3{
+    width: 100%;
+    padding-top: 5rem;
+    padding-left: 5rem;
+    color: white;
+}
+.myh6{
+    padding-left: 2.5rem;
+    font-size: 1rem;
+    padding-top: 1rem;
+}
+.my-h4{
+  font-size: 2rem;
+}
+
+.B-side2{
+    width: 40%;
+    /* background-color: red; */
+    
+}
+.B-side2 img{
+    position: absolute;
+    right: 8rem;
+    bottom: -43rem;
+}
+.body{
+    width: 100%;
+    height: 550px;
+    background-color: rgb(54, 53, 53);
+    display: flex;
+    padding-top: 6rem;
+    flex-direction: column
+}
+.body-box1{
+    width: 50;
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.body-box2{
+    width:50 ;
+    display: flex;
+    padding-left: 10rem;
+    padding-top: 3.5rem;
+}
+.box-in1{
+    width: 26%;
+    height: 100px;
+    color: white;
+}
+
+.box-in2{
+    width: 26%;
+
+}
+
+.box-in3{
+    width: 26%;
+    padding-left: 3rem;
+
+}
+.in-in1{
+    color: white;
+}
+
+.in-in2{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(32, 196, 32);
+    padding-top: 0.8rem;
+    border-radius: 50px 50px;
+    padding-left: 1rem;
+    margin-left: 1rem;
+    margin-top: 2rem
+}
+.in-in3{
+    font-size: 0.8rem ;
+    padding-top: 0.3rem;
+    color: white;
+    margin-left: 1.6rem;
+}
+.in-in4{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(32, 196, 32);
+    padding-top: 0.8rem;
+    border-radius: 50px 50px;
+    padding-left: 1rem;
+    margin-left: 1rem;
+    margin-top: 1rem
+}
+
+.in-in5{
+    font-size: 0.8rem ;
+    padding-top: 1rem;
+    color: rgb(201, 187, 187);
+    margin-left: 4rem;
+}
+.footer{
+    width: 100%;
+    height: 230px;
+    background-color: rgba(21, 21, 27, 0.945);
+    display: flex;
+}
+.footer-box1{
+    width: 20%;
+    display: flex;
+    padding-left: 12rem;
+    padding-top: 2rem;
+}
+
+
+.footer-box2{
+    width: 20%;
+    display: flex;
+    padding-left: 17rem
+}
+.f-in2A{
+    padding-top: 5rem;
+
+}
+
+.f-in2B{
+    padding-left: 2rem;
+    padding-top: 1rem;
+    font-size: 0.8rem;
+    color: white;
+}
+
+.footer-box3{
+    width: 30%;
+    padding-top: 0.9rem;
+    color: white;
+    padding-left: 15rem
+}
+
+.footer-box4{
+    width: 40%;
+    font-size: 0.7rem;
+    padding-top: 1rem;
+    color: white;
+    padding-left: 0.5rem
+}
+.social-side{
+    display: flex;
+    padding-top: 1rem;
+}
+.socials1{
+    width: 8%;
+    font-size: 1.4rem;
+    border-radius: 100%;
+    padding-left: 0.4rem;
+    color: blue;
+}
+
+.socials2{
+    width: 8%;
+    font-size: 1.8rem;
+    color: black;
+    border-radius: 100%;
+    padding-left: 0.4rem;
+}
+
+.socials3{
+    width: 8%;
+    font-size: 1.4rem;
+    color: rgba(245, 0, 0, 0.432);
+    border-radius: 100%;
+    padding-left: 0.4rem;
+}
+
+.socials4{
+    width: 8%;
+    font-size: 1.4rem;
+    border-radius: 100%;
+    padding-left: 0.4rem;
+    color: rgba(10, 10, 199, 0.377);
+}
+
+.socials5{
+    width: 8%;
+    font-size: 1.4rem;
+    color: red;
+    border-radius: 100%;
+    padding-left: 0.4rem;
+}
+.L-footer{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    background-color: rgba(21, 21, 27, 0.945);
+}
+.L-box1{
+    width: 60%;
+    display: flex;
+    padding-left: 12rem;
+    padding-top: 0.7rem;
+    font-size: 1rem;
+
+}
+
+.L-in2{
+    padding-top: 0.5rem;
+    padding-left: 0.8rem;
+    color: white;
+}
+
+.L-box2{
+    width: 50%;
+    display: flex;
+}
+.last-f{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(17, 16, 16);
+    display: flex;
+    padding-left: 8rem;
+}
+.cover{
+    margin-left: 4rem;
+    display: flex;
+}
+.last-box{
+    padding-left: 0.7rem;
+    padding-top: 1.5rem;
+}
+
+
+@media (max-width:560px) {
+    .header{
+        width: 100%;
+        height: 60px;
+        background-color: var(--bg-color);
+        display: flex;
+       
+    }
+    .header-boxA{
+       padding-top: 1.2rem;
+       padding-left: 12rem;
+    
+    }
+    
+    .header-boxB{
+        width: 40%;
+       padding-top: 1.2rem;
+    }
+    
+    .header-boxC{
+        padding-top: 1.2rem;
+        width: 25%;
+        height: 100px;
+        display: none;
+    }
+    .regA{
+        padding-top: 0.5rem;
+        background-color: rgba(0, 0, 0, 0.4);
+        height: 35px;
+        color: white;
+        padding-left: 1rem
+    }
+    
+    .regB{
+        padding-top: 0.1rem;
+        height: 35px;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.4);
+        padding-left: 1rem;
+    }
+    
+    .header-boxD{
+        padding-top: 1.2rem;
+        width: 30%;
+        display: flex;
+        margin-left: 0.3rem;
+        display: none;
+    }
+    
+    .reg2A{
+        padding-top: 0.1rem;
+        height: 35px;
+        width: 100%;
+        background-color: rgba(15, 15, 15, 0.4);
+        padding-left: 1rem;
+    }
+    
+    .reg2B{
+        padding-top: 0.5rem;
+        background-color: rgba(22, 21, 21, 0.562);
+        width: 50%;
+        height: 35px;
+        padding-left: 1rem 
+    }
+    .my-button{
+        border: 0px;
+        background-color: transparent;
+        color: white;
+    }
+    
+    .my-inputA{
+        width: 70%;
+        height: 30px;
+        outline: none;
+        background-color: transparent;
+        border: 0px;
+        
+    }
+    
+    .my-inputB{
+        width: 90%;
+        height: 30px;
+        outline: none;
+        background-color: transparent;
+        border: 0px;
+    }
+    
+    .header-boxE{
+        width: 30%;
+        padding-right: 10rem;
+        margin-top: 1.2rem;
+        margin-left: 0.5rem;
+    }
+    .reg3{
+        width: 46%;
+        height: 35px;
+        padding-left: 0.35rem;
+        padding-top: 0.5rem;
+        border: 1px solid white;
+    }
+    .my-buttonB{
+        border: 0px;
+        background-color: transparent;
+        color: white;
+    }
+    .header2{
+        width: 100%;
+        height: 60px;
+        background-color: rgb(212, 25, 25);
+       display: flex; 
+       gap: 1px;
+    }
+    .header-in{
+        width: 83%;
+        display: flex;
+        padding-left: 15rem;
+    
+    
+    }
+    
+    
+}
